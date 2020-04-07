@@ -33,9 +33,6 @@ body{
 
 .sinistra{
   width: 35%;
-  /* debug */
-  background-color: blue;
-  /* debug */
   height: 100%;
 }
 
@@ -199,4 +196,68 @@ font-size: 20px;
   color: lightgrey;
   font-size: 14px;
   line-height: 24px;
+}
+
+/* fine stile div contatti */
+
+/* inizio contenuto parte di destra */
+
+.header-destra{
+  height: 70px;
+  width: 100%;
+  background: #EAEAEA;
+  border-left: 1px solid lightgrey;
+  display: flex;
+}
+
+.contatto-attivo{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 0 10px;
+}
+
+.icone-destra{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.icone-destra .fas{
+  color: rgb(177, 177, 177);
+  font-size: 22px;
+  padding: 0 10px;
+}
+
+.contatto-attivo img{
+  width: 50px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.contatto-attivo div{
+  padding-left: 14px;
+}
+
+.contatto-attivo div p:nth-child(2){
+  color: grey;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.container-chat{
+  /* debug */
+  background-color: pink;
+  /* debug */
+  width: 100%;
+  height: calc(100% - 140px);
+}
+
+.footer-destra{
+  /* debug */
+  background-color: violet;
+  /* debug */
+  height: 70px;
+  width: 100%;
 }
