@@ -246,18 +246,51 @@ font-size: 20px;
   line-height: 24px;
 }
 
+/* inizio corpo della chat */
+
 .container-chat{
-  /* debug */
-  background-color: pink;
-  /* debug */
+  background-image: url("../img/sfondo.jpg");
+  background-repeat: repeat;
   width: 100%;
   height: calc(100% - 140px);
+  overflow-y: scroll;
 }
 
 .footer-destra{
-  /* debug */
-  background-color: violet;
-  /* debug */
+  background: #EAEAEA;
   height: 70px;
   width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fa-telegram-plane, .fa-microphone, .fa-smile{
+  color: grey;
+  font-size: 24px;
+  padding: 0 20px;
+}
+
+.emoji, .microfono-invio{
+  width: 10%;
+  height: auto;
+}
+
+.text-box{
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.text-box input{
+  border-radius: 4px;
+  border: none;
+  color: grey;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+}
+
+.text-box input::placeholder{
+  font-size: 14px;
 }
