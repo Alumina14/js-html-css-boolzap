@@ -22,7 +22,6 @@ body{
 .container{
   /*debug*/
   border: 1px solid black;
-  background-color: red;
   /*debug*/
   width: 80%;
   min-width: 900px;
@@ -156,4 +155,48 @@ font-size: 20px;
   border-right: none;
   padding: 10px;
   text-align: center;
+}
+
+/* Inizio stile div contatti */
+
+.container-contatti{
+  width: 100%;
+  height: calc(100% - 200px);
+  overflow: auto;
+
+}
+
+.contatti{
+  height: 80px;
+  background: white;
+  border-bottom: 1px solid #F5F5F5;
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contatti img{
+  width: 60px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.nome-account{
+  padding-left: 24px;
+  width: 70%;
+}
+
+.nome-account p:nth-child(2){
+  color: lightgrey;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+.orario-chat p{
+  text-align: right;
+  color: lightgrey;
+  font-size: 14px;
+  line-height: 24px;
 }
