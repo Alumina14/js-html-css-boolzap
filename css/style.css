@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to bottom, #009688 0px, #009688 15vh, #dddbd1 15vh, #d2dbdc 100% );
+  font-family: sans-serif;
+}
+
+/* regole dei contenitori*/
+
+#wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container{
+  /*debug*/
+  border: 1px solid black;
+  background-color: red;
+  /*debug*/
+  width: 80%;
+  min-width: 900px;
+  height: 95%;
+  display: flex;
+}
+
+/* regole della parte sinistra e di destra  */
+
+.sinistra{
+  width: 35%;
+  /* debug */
+  background-color: blue;
+  /* debug */
+  height: 100%;
+}
+
+.destra{
+  width: 65%;
+  /* debug */
+  background-color: green;
+  /* debug */
+  height: 100%;
+}
+
+/* contenuto parte di sinistra */
+
+/* inizio header sinistra */
+
+.header-sinistra{
+  width: 100%;
+  height: 70px;
+  background: #EAEAEA;
+  padding: 0 10px;
+  display: flex;
+}
+
+.logo-sinistra{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+
+}
+
+.logo-sinistra img{
+  width: 50px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.icone-sinistra{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.icone-sinistra .fas{
+  color: rgb(177, 177, 177);
+  font-size: 22px;
+  padding: 0 10px;
+}
+
+/* fine header sinistra */
+
+/* Inizio blocco notifiche */
+
+.notifiche-messaggi{
+  width: 100%;
+  height: 80px;
+  background: #8EDAFC;
+  padding: 0 10px;
+  display: flex;
+}
+
+.icona-silenzia{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.icona-silenzia .fas{
+width: 50px;
+height: 50px;
+background: #F2FBFF;
+border-radius: 100%;
+text-align: center;
+color: #8EDAFC;
+line-height: 50px;
+font-size: 20px;
+}
+
+.testo-silenzia{
+  margin: auto 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.testo-silenzia a{
+  color: #4F7485;
+}
+
+/* fine blocco notifiche */
+
+.barra-ricerca{
+  width: 100%;
+  height: 50px;
+  background: #EAEAEA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* input di ricerca, da modificare nel prossimo milestone l'html */
+
+.barra-ricerca input{
+  width: 80%;
+  height: 40px;;
+  border: 1px solid lightgrey;
+  color: grey;
+  border-left: none;
+}
+
+.barra-ricerca .fas{
+  color: rgb(177, 177, 177);
+  font-size: 18px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-right: none;
+  padding: 10px;
+  text-align: center;
+}
