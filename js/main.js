@@ -10,6 +10,7 @@
 
 $( document ).ready(function() {
 
+
     // do l'evento click all icona di invio
     $('.fa-telegram-plane').click(
       function(){
@@ -20,9 +21,21 @@ $( document ).ready(function() {
       }
   )
 
-
-
-
+    // $('#testojs').focusin(
+    //   function(){
+    //       $('.fa-telegram-plane').show();
+    //       $('.fa-microphone').hide();
+    //   }
+    //
+    // )
+    //
+    // $('#testojs').focusout(
+    //   function(){
+    //       $('.fa-telegram-plane').hide();
+    //       $('.fa-microphone').show();
+    //   }
+    //
+    // )
 
 
 });

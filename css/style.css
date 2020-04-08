@@ -20,9 +20,6 @@ body{
 }
 
 .container{
-  /*debug*/
-  border: 1px solid black;
-  /*debug*/
   width: 80%;
   min-width: 900px;
   height: 95%;
@@ -173,6 +170,7 @@ cursor: pointer;
   padding: 0 10px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .contatti img{
@@ -316,6 +314,8 @@ align-self: flex-start;
 .align-right{
 align-self: flex-end;
 }
+
+
 /* messaggio inviato dall'utente, ovvero dal form di input */
 
 
